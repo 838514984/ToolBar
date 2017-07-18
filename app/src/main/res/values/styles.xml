@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="Theme.Base" parent="Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Base">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item><!--toolbar颜色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item><!--状态栏颜色-->
+        <item name="colorAccent">@color/colorAccent</item><!--控件选中的颜色-->
+        <item name="android:windowBackground">@color/colorwhite</item><!--内容的背景色-->
+        <item name="colorControlNormal">@color/colorwhite</item><!--MEnu三个点的颜色-->
+    </style>
+<!--看-->
+    <style name="poptheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/colorAccent</item><!--弹出三个点折叠菜单的背景色-->
+        <item name="android:textColor">#ffffffff</item><!--弹出三个点每个item的颜色-->
+        <item name="android:overlapAnchor">true</item><!--不挡住锚点？好像没用-->
+    </style>
+</resources>
